@@ -5,12 +5,12 @@ $gris-dark: #3e3e3e;
 
 .welcome-section {
   top: 0;
-  min-height: 55vh;
-  padding-top: 45vh;
+  min-height: 100vh;
+  // padding-top: 45vh;
   background-color: $primary;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-block {
@@ -31,11 +31,10 @@ nav.navbar.is-fixed-top {
 }
 
 section.projects-section {
-  min-height: 35vh;
-  min-height: 55vh;
+  min-height: 100vh;
 }
 
 section.information {
-  min-height: 10vh;
+  min-height: 25vh;
   background-color: $primary;
 }
