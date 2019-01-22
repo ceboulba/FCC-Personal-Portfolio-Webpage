@@ -8,11 +8,11 @@
     <title>FreeCodeCamp Personal PortFolio</title>
   </head>
   <body>
-    <div class="hero is-primary is-fullheight">
-      <header class="hero-head header" id="header">
+    <header class="hero">
+      <div class="hero-head">
         <nav
+          id="navbar"
           class="navbar is-fixed-top"
-          id="nav-bar"
           role="navigation"
           aria-label="main navigation"
         >
@@ -20,7 +20,6 @@
             <a class="navbar-item" href="https://bulma.io">
               <img
                 src="https://bulma.io/images/bulma-logo.png"
-                id="header-img"
                 width="112"
                 height="28"
               />
@@ -40,107 +39,52 @@
 
           <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-              <a class="navbar-item"> Home </a>
+              <a href="#welcome-section" class="navbar-item"> Home </a>
 
-              <a class="navbar-item"> Documentation </a>
+              <a href=#projects class="navbar-item"> Work </a>
 
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link"> More </a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item nav-link"> About </a>
-                  <a class="navbar-item nav-link"> Jobs </a>
-                  <a class="navbar-item nav-link"> Contact </a>
+                  <a class="navbar-item"> About </a>
+                  <a class="navbar-item"> Jobs </a>
+                  <a class="navbar-item"> Contact </a>
                   <hr class="navbar-divider" />
                   <a class="navbar-item"> Report an issue </a>
                 </div>
               </div>
             </div>
-
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <div class="buttons">
-                  <a class="button is-primary"> <strong>Sign up</strong> </a>
-                  <a class="button is-light"> Log in </a>
-                </div>
-              </div>
-            </div>
           </div>
         </nav>
-        <div class="container">
-          <div class="header-pres has-text-centered">
-            <div class="title">Santiago</div>
-            <div class="subtitle">Antoine</div>
-          </div>
-        </div>
-      </header>
+      </div>
+    </header>
+    <section id="welcome-section" class="section welcome-section">
+      <div class="text-block">
+        <h1 class="title">Hey i'am Antoine</h1>
+        <h3 class="subtitle">a student web developer</h3>
+      </div>
+    </section>
 
-      <div class="section">
-        <div class="columns is-multiline">
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img
-                    src="https://bulma.io/images/placeholders/1280x960.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
-              </div>
-              <div class="card-header">
-                <div class="card-header-title">Title</div>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img
-                    src="https://bulma.io/images/placeholders/1280x960.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
-              </div>
-              <div class="card-header">
-                <div class="card-header-title">Title</div>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img
-                    src="https://bulma.io/images/placeholders/1280x960.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
-              </div>
-              <div class="card-header">
-                <div class="card-header-title">Title</div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section id="projects" class="section projects-section">
+      <div class="card project-tile">
+        <p class="content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+          ratione corporis sequi numquam asperiores atque aliquid obcaecati
+          ullam vel pariatur facilis fuga deserunt, veritatis aliquam veniam
+          error laborum accusamus voluptas. Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Libero, quidem! Architecto quis optio
+          odit enim repudiandae aliquid, laudantium voluptates ut natus alias
+          iusto aperiam provident ab iste, illum saepe doloremque.
+        </p>
       </div>
-      <div class="section">
-        <div class="container">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            deserunt soluta praesentium illum itaque inventore eaque molestiae
-            facere consequatur obcaecati sunt doloremque quia neque aut rem
-            quidem animi, sint nihil?
-          </p>
-        </div>
-      </div>
+    </section>
 
-      <div class="hero-foot">
-        <div class="container is-fullwidth">
-          <p class="subtitle has-text-centered">The Footer</p>
-        </div>
+    <section class="information">
+      <div class="container">
+        <p>Somme Footer Infos</p>
       </div>
-    </div>
+    </section>
 
     <script src="./assets/js/index.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
