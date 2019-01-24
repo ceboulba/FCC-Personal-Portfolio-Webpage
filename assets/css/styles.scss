@@ -13,6 +13,14 @@ $gris-dark: #3e3e3e;
   align-items: center;
 }
 
+.information-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $primary;
+}
+
 .text-block {
   .title {
     color: white;
@@ -37,4 +45,11 @@ section.projects-section {
 section.information {
   min-height: 25vh;
   background-color: $primary;
+}
+
+.anchor {
+  display: block;
+  height: 52px; /*same height as header*/
+  margin-top: -52px; /*same height as header*/
+  visibility: hidden;
 }
