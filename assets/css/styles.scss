@@ -2,6 +2,7 @@
 
 $primary: #30b6d1;
 $gris-dark: #3e3e3e;
+$nav-height: 52px;
 
 .welcome-section {
   top: 0;
@@ -13,13 +14,13 @@ $gris-dark: #3e3e3e;
   align-items: center;
 }
 
-.information-section {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid $primary;
-}
+// .information-section {
+//   min-height: calc(25vh - 160px);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border: 1px solid $primary;
+// }
 
 .text-block {
   .title {
@@ -40,11 +41,6 @@ nav.navbar.is-fixed-top {
 
 section.projects-section {
   min-height: 100vh;
-}
-
-section.information {
-  min-height: 25vh;
-  background-color: $primary;
 }
 
 .anchor {
